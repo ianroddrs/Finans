@@ -11,33 +11,83 @@
     <!-- estilo customizado -->
     <link rel="stylesheet" href="assets/css/estilo.css">
 
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+
     <title>Finans - Finanças pessoais</title>
   </head>
   <body>
-    <header class="bg-warning">
-      <nav class="navbar navbar-expand navbar-light mx-5">
-        <a href="#" class="navbar-brand">
-          <img src="assets/img/logo.png" alt="logo_finans" height="30px">
-        </a>
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Recursos</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Benefícios</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">Preço</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="btn btn-outline-light">Entrar</a>
-          </li>
-        </ul>
+    <header>
+      <nav class="navbar navbar-expand-sm navbar-light bg-warning">
+        <div class="container">
+          <a href="#" class="navbar-brand">
+            <img src="assets/img/logo.png" alt="logo_finans" height="30px">
+          </a>
+
+          <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Recursos</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Benefícios</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Preços</a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="btn btn-outline-light ml-5">Entrar</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
       </nav>
     </header>
+
+    <main>
+      <section class="bg-warning">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 d-flex text-light">
+              <div class="align-self-center">
+                <h1 class="display-4">Suas contas, descomplicadas</h1>
+                <p>Usado por mais de 1 milhão, o Finans é uma ferramenta online que vai facilicar sua vida financeira</p>
+                
+                <form class="mt-4 mb-4">
+                  <div class="input-group input-group-lg">
+                    <input type="email" name="email" class="form-control" placeholder="Seu melhor e-mail">
+                    <div class="input-group-append">
+                      <button type="button" class="btn btn-primary">Cadastre-se</button>
+                    </div>
+                  </div>
+                </form>
+                
+                  <p>
+                    Disponível para
+                    <a class="btn btn-outline-light">
+                      <i class="fab fa-android fa-lg"></i>
+                    </a>
+                    <a class="btn btn-outline-light">
+                      <i class="fab fa-apple fa-lg"></i>
+                    </a>
+                  </p>
+              </div>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+              <img src="assets/img/capa-mulher.png" width="426">
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     
 
     <!-- JavaScript (Opcional) -->
